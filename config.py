@@ -13,7 +13,7 @@ SESSION = os.getenv("SESSION")
 OWNER_NAME = os.getenv("OWNER_NAME")
 CHANNEL = os.getenv("CHANNEL")
 PHOTO_CH = os.getenv("PHOTO_CH")
-HNDLR = os.getenv("HNDLR", "$")
+HNDLR = os.getenv("HNDLR", "/")
 SUDO_USERS = list(map(int, os.getenv("SUDO_USERS").split()))
 
 
@@ -22,5 +22,5 @@ contact_filter = filters.create(
     or message.outgoing
 )
 
-bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="Musicjepthon"))
+bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="MusicBad"))
 call_py = PyTgCalls(bot)
