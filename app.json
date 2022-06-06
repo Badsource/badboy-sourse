@@ -1,14 +1,14 @@
 {
-    "name": "سورس ميوزك جيبثون",
-    "description": "اهلا بك في تنصيب ميوزك جيبثون مجانا @Jepthon",
-    "logo": "https://telegra.ph/file/66ec52e60aff4ce906336.jpg",
+    "name": "سورس باد ميوزك",
+    "description": "اهلا بك في تنصيب باد ميوزك مجانا @Colli9",
+    "logo": "https://telegra.ph/file/48b97fda773050edd4e77.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
-        "jepthon",
+        "BadMusic",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/lMl10l/MusicJep",
+    "repository": "https://github.com/Qa8tm/BadMusic",
     "env": {
         "SESSION": {
             "description": "هنا ضع كود البايروكرام",
