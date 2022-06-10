@@ -71,7 +71,7 @@ def masg(call):
 		
 		M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
 		
-		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- ‹  ♰ أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️" ♰ ›,reply_markup=mas)
+		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- ‹  ♰ أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️" ,reply_markup=mas)
 
 	elif call.data =="F1":
 		
