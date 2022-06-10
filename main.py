@@ -67,7 +67,7 @@ def masg(call):
 		
 		M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
 		
-		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
+		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- ‹  ♰ أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️" ♰ ›,reply_markup=mas)
 
 	elif call.data =="F1":
 		
@@ -98,7 +98,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{h}\n------------─ ♰♰♰ ♰------------─\n• ‹ ♰ مطور البوت @accccT ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------ ♰♰♰ ♰------------\n‹ صدتلك يوزر : @{h}\n------------ ♰♰♰ ♰------------\n• ‹ ♰ مطور البوت @accccT ♰  ›")
 				
 			else:
 				cp+=1
@@ -146,7 +146,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{li}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------\n‹ صدتلك يوزر : @{li}\n------------ ♰♰♰ ♰------------\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -183,7 +183,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------ ♰♰♰ ♰------------\n‹ صدتلك يوزر : @{username}\n------------ ♰♰♰ ♰------------\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -221,7 +221,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------ ♰♰♰ ♰------------\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -259,7 +259,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------ ♰♰♰ ♰------------\n‹ صدتلك يوزر : @{username}\n------------ ♰♰♰ ♰------------\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -297,7 +297,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزرات تلي متاحه ®\n------------ ♰♰♰ ♰------------\n‹ صدتلك يوزر : @{username}\n------------ ♰♰♰ ♰------------\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -341,7 +341,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"♰‹ يوزرات تلي متاحه ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{j}\n------------─ ♰♰♰\n ‹ ♰  ‹ ♰ مطور البوت @accccT ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"♰‹ يوزرات تلي متاحه ®\n------------ ♰------------\n‹ صدتلك يوزر : @{j}\n------------ ♰♰♰\n ‹ ♰  ‹ ♰ مطور البوت.@accccT.♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -367,5 +367,5 @@ def redirect_message():
 
 if __name__ == "__main__":
     bot.remove_webhook()
-    bot.set_webhook(url="https://dragon16.herokuapp.com/"+str(BOT_TOKEN))
+    bot.set_webhook(url="https://dragon15.herokuapp.com/"+str(BOT_TOKEN))
     server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
