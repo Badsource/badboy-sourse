@@ -34,6 +34,10 @@ def boten(message):
     F = types.InlineKeyboardButton(text ="(9UUUUU)", callback_data="F7")
     
     M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+    X = types.InlineKeyboardButton(' ‹  ♰ مطور البوت  ♰  ›', url='https://t.me/accccT')
+    V = types.InlineKeyboardButton(' ‹  ♰ الموقع الذي فيه ملفات البوت   ♰  ›', url='https://github.com')
+    Z = types.InlineKeyboardButton(' ‹  ♰ استضافه البوت   ♰  ›', url='https://signup.heroku.com/login')
+    G = types.InlineKeyboardButton(' ‹  ♰  تنصيب البوت مدفوع عند:    ♰  ›', url='https://t.me/accccT')
     
     mas.add(A,E,K,J,I,O,F)
     mas.add(M)
