@@ -36,8 +36,6 @@ def boten(message):
     
     X = types.InlineKeyboardButton(' ‹  ♰ مطور البوت  ♰  ›', url='https://t.me/accccT')
     
-    V = types.InlineKeyboardButton(' ‹  ♰ الموقع الذي فيه ملفات البوت   ♰  ›', url='https://github.com')
-    
     Z = types.InlineKeyboardButton(' ‹  ♰ استضافه البوت   ♰  ›', url='https://signup.heroku.com/login')
     
     G = types.InlineKeyboardButton(' ‹  ♰  تنصيب البوت مدفوع عند:    ♰  ›', url='https://t.me/accccT')
@@ -76,11 +74,11 @@ def masg(call):
 		
 		X = types.InlineKeyboardButton(' ‹  ♰ مطور البوت  ♰  ›', url='https://t.me/accccT')
 		
-        V = types.InlineKeyboardButton(' ‹  ♰ الموقع الذي فيه ملفات البوت   ♰  ›', url='https://github.com')
+                V = types.InlineKeyboardButton(' ‹  ♰ الموقع الذي فيه ملفات البوت   ♰  ›', url='https://github.com')
        
-        Z = types.InlineKeyboardButton(' ‹  ♰ استضافه البوت   ♰  ›', url='https://signup.heroku.com/login')
-        
-        G = types.InlineKeyboardButton(' ‹  ♰  تنصيب البوت مدفوع عند:    ♰  ›', url='https://t.me/accccT')
+                Z = types.InlineKeyboardButton(' ‹  ♰ استضافه البوت   ♰  ›', url='https://signup.heroku.com/login')
+           
+                G = types.InlineKeyboardButton(' ‹  ♰  تنصيب البوت مدفوع عند:    ♰  ›', url='https://t.me/accccT')
      
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- ‹  ♰ أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️" ♰ ›,reply_markup=mas)
 
