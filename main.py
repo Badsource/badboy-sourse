@@ -52,7 +52,7 @@ def masg(call):
 	
 	global nam
 	
-	if call.data =="N_B_1":
+	if call.data =="@ACCCCT":
 		
 		mas = types.InlineKeyboardMarkup(row_width=2)
 		
@@ -122,6 +122,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{h}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton('  ‹ ♰ مطور البوت ♰ ›, url='https://t.me/ACCCCT')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -170,6 +171,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{li}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton('  ‹ ♰ المطور العضيم  ♰ ›, url='https://t.me/ACCCCT')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 		
@@ -207,6 +209,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton(' ‹  ♰ المطور العضيم ♰  ›', url='https://t.me/ACCCCT')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -245,6 +248,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton(' ‹  ♰ المطور العضيم ♰  ›', url='https://t.me/ACCCCT')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -283,6 +287,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton(' ‹  ♰ المطور العضيم ♰  ›', url='https://t.me/ACCCCT')                 
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -321,6 +326,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton(' ‹  ♰ المطور العضيم ♰  ›', url='https://t.me/ACCCCT')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -365,6 +371,7 @@ def masg(call):
 				B = types.InlineKeyboardButton(f'{j}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
 				M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
+                                X = types.InlineKeyboardButton(' ‹  ♰ المطور العضيم ♰  ›', url='https://t.me/ACCCCT')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)			
 
