@@ -31,7 +31,6 @@ def boten(message):
     
     O = types.InlineKeyboardButton(text ="(I_C_E)", callback_data="F6")
     
-    F = types.InlineKeyboardButton(text ="(9UUUUU)", callback_data="F7")
     M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
     
     X = types.InlineKeyboardButton(' ‹  ♰ مطور البوت  ♰  ›', url='https://t.me/accccT')
@@ -68,7 +67,6 @@ def masg(call):
 		
 		O = types.InlineKeyboardButton(text ="(I_C_E)", callback_data="F6")
 		
-		F = types.InlineKeyboardButton(text ="(9UUUUU)", callback_data="F7")
 		
 		M = types.InlineKeyboardButton(' ‹  ♰ قناة البوت ♰  ›', url='https://t.me/Colli9')
 		
@@ -330,15 +328,7 @@ def masg(call):
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
-	elif call.data =="F7":
-		
-		xu = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
-		xn = "1234567890"
-		xa = "MNBVCXZLKJHGFDSAPOIUYTREWQ"
-		ok=0
-		cp=0
-		sk=0
-		while True:
+
 			us = str(''.join(random.choice(xu)for i in range(1)))
 			un = str(''.join(random.choice(xn)for i in range(1)))
 			ua = str(''.join(random.choice(xa)for i in range(1)))
